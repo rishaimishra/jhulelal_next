@@ -88,8 +88,8 @@ export default function Home() {
     <div className="flex flex-col w-full">
       {/* Hero Section */}
       <Hero
-        title="Building Trust, Brick by Brick"
-        subtitle="50+ Years of Legacy in Construction Excellence. We turn your vision into reality with precision and dedication."
+        title="BUILDING TRUST BRICK BY BRICK"
+        subtitle="We combine our years of expertise with a relentless focus on detail, ensuring every project is delivered to the highest standards."
       />
 
       {/* Stats Section */}
@@ -113,7 +113,7 @@ export default function Home() {
             <div className="lg:w-1/2 relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1541913057-259c1ec39150?q=80&w=1974&auto=format&fit=crop"
+                  src="/uploads/about.webp"
                   alt="Construction site"
                   className="w-full h-auto"
                 />
@@ -123,15 +123,17 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2">
               <SectionHeading
-                title="50+ Years of Construction Legacy"
-                subtitle="About Our Company"
+                title="Building structures that
+stay strong for a
+lifetime."
+                subtitle="About Us"
                 centered={false}
               />
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                With a legacy spanning over 50 years, our journey began as M/s Anil Kumar Mandhyani, a trusted name in railway contracts. We later expanded into commercial and residential construction as Gannapati Builders.
+                With a legacy spanning over 50 years, our journey began as M/s Anil Kumar Mandhyani, a trusted name in railway contracts. We later expanded our expertise into commercial and residential construction as Gannapati Builders. In the past two years, we have proudly evolved into <b>Jhulelal Builders</b>.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                In the past two years, we have proudly evolved into Jhulelal Builders, continuing our commitment to quality, integrity, and excellence in every project we undertake.
+                Today, we deliver a wide range of construction services, from residential homes to commercial complexes and industrial projects. Guided by our core values of integrity and dedication, we are committed to creating projects that not only inspire trust but also reflect exceptional quality and stand the test of time.
               </p>
               <Link
                 href="/about"
@@ -149,9 +151,11 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Comprehensive Construction Services"
-            subtitle="What We Offer"
-          />
+  title="Our construction services"
+  subtitle="Our Services"
+/>
+
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
@@ -198,8 +202,8 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <div className="lg:w-1/2">
               <SectionHeading
-                title="Why Choose Jhulelal Builders?"
-                subtitle="Our Commitment"
+                title="Why we're your best choice"
+                subtitle="Why choose us?"
                 centered={false}
                 light={true}
               />
@@ -209,8 +213,8 @@ export default function Home() {
                     <Shield size={24} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-white mb-2">Quality in Every Brick</h4>
-                    <p className="text-gray-400">We use only the highest grade materials and follow stringent quality control measures to ensure your structure stands the test of time.</p>
+                    <h4 className="text-xl font-bold text-white mb-2">Innovation Solutions</h4>
+                    <p className="text-gray-400">Innovation solutions are new and creative ways of solving problems or improving processes. They go beyond simple fixes, often involving the use of fresh ideas or new applications of existing concepts and technologies to tackle specific challenges.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -218,8 +222,8 @@ export default function Home() {
                     <Clock size={24} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-white mb-2">On Time Delivery</h4>
-                    <p className="text-gray-400">We understand the value of your time. Our efficient project management ensures that we meet our deadlines without compromising on quality.</p>
+                    <h4 className="text-xl font-bold text-white mb-2">Quality Craftsmanship</h4>
+                    <p className="text-gray-400">Quality craftsmanship in construction refers to the art of building with exceptional skill, meticulous attention to detail, and a commitment to excellence.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -227,8 +231,8 @@ export default function Home() {
                     <Users size={24} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-white mb-2">Transparent Communication</h4>
-                    <p className="text-gray-400">We keep you informed at every step of the construction process. No hidden costs, no surprises, just honest and open communication.</p>
+                    <h4 className="text-xl font-bold text-white mb-2">Expertise And Experience</h4>
+                    <p className="text-gray-400">Expertise and experience are two interconnected yet distinct qualities that define a professional's capabilities, especially in a specialized field like construction.</p>
                   </div>
                 </div>
               </div>
@@ -286,9 +290,10 @@ export default function Home() {
       <section className="py-20 bg-accent overflow-hidden relative">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6">Ready to Build Your Dream Project?</h2>
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6">Let's bulid something great
+together!</h2>
           <p className="text-white/90 text-xl mb-10 max-w-2xl mx-auto">
-            Contact us today for a free consultation and let's start building your vision together.
+            Don’t wait any longer to bring your construction dreams to life. Partner with Jhulelal Builders and experience unparalleled service and quality.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

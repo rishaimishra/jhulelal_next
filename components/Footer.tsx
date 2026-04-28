@@ -13,7 +13,7 @@ const Footer = () => {
               JHULELAL <span className="text-accent">BUILDERS</span>
             </h3>
             <p className="text-gray-400 mb-6">
-              Building Trust, Brick by Brick. With over 50 years of legacy, we deliver excellence in residential and commercial construction.
+              Our post-construction services gives you peace of mind knowing that we are still here for you even after.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-accent transition-colors">

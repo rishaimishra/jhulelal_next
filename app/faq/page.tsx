@@ -6,36 +6,40 @@ import Link from "next/link";
 
 const faqItems = [
   {
-    question: "What types of construction projects do you handle?",
-    answer: "Jhulelal Builders handles a wide range of projects, including residential complexes, individual luxury villas, commercial buildings, retail spaces, and specialized structures like temples and spiritual landmarks. With 50+ years of legacy, we have the expertise to manage projects of varying scales and complexities.",
+    question: "Who is Jhulelal Builders?",
+    answer: "Jhulelal Builders is a construction company with a legacy of over 50 years, founded on a commitment to integrity and quality. We evolved from M/s Anil Kumar Mandhyani, a respected name in railway contracts, and Gannapati Builders to our current brand. Our mission is to build projects that inspire trust and stand the test of time.",
   },
   {
-    question: "How long does a typical residential project take to complete?",
-    answer: "The timeline depends on the scale and complexity of the project. Generally, a single residential villa takes 10–14 months, while larger residential complexes can take 24–36 months. We pride ourselves on our 'On Time Delivery' and provide a detailed timeline during the planning phase.",
+    question: "What types of projects do you specialize in?",
+    answer: "We specialize in a wide range of projects, including residential homes, commercial complexes, and industrial ventures. Our extensive experience allows us to handle projects of varying scale and complexity with exceptional craftsmanship and attention to detail.",
   },
   {
-    question: "Do you provide architectural design services separately?",
-    answer: "Yes, we offer comprehensive architectural and building design services as standalone offerings. You can hire us for just the design phase, which includes conceptualization, 3D rendering, and structural planning, or opt for our full-service design-build package.",
+    question: "How do I start a project with your company?",
+    answer: "Getting started is simple. You can begin by contacting us via phone or email to schedule a free initial consultation. We'll discuss your vision, project requirements, and timeline to prepare a detailed, no-obligation quotation for you.",
   },
   {
-    question: "Are your projects RERA approved?",
-    answer: "Absolutely. All our ongoing and upcoming residential projects are registered and approved under the Real Estate Regulation Act (RERA). We ensure full compliance with all local building codes and government regulations to protect our clients' interests.",
+    question: "Do you offer a free, no-obligation quotation?",
+    answer: "Yes, we provide a free, no-obligation quotation for all our services. We believe in transparency and want you to have a clear understanding of the project scope and costs before making any commitment.",
   },
   {
-    question: "What materials do you use for construction?",
-    answer: "We use only premium, certified building materials. This includes high-grade TMT steel, superior quality cement (like ACC or Ultratech), and branded fittings for plumbing and electrical work. Our 'Quality in Every Brick' commitment means we never compromise on the structural integrity of our builds.",
+    question: "How do you ensure the quality of your work?",
+    answer: "Our commitment to quality is at the core of everything we do. We achieve this through meticulous onsite supervision, strict quality control measures, and by using high-grade materials. Our team of experienced professionals ensures every detail is executed with precision and care.",
   },
   {
-    question: "Can I customize the design of my home during the construction process?",
-    answer: "We offer flexibility for minor customizations during the early stages of construction. However, major structural changes are discouraged once the foundation and skeleton are complete to maintain structural integrity. Our design team works closely with you before construction begins to minimize the need for changes later.",
+    question: "What is your approach to project management?",
+    answer: "We follow a disciplined approach to project management, focusing on clear communication, efficient scheduling, and proactive risk management. Our goal is to ensure your project is completed on time, within budget, and to the highest standards.",
   },
   {
-    question: "Do you offer post-construction maintenance?",
-    answer: "Yes, we provide a standard warranty on structural components and offer maintenance support for a specified period after handover. We believe in building long-term relationships with our clients and are always available for any assistance required after you move in.",
+    question: "What services do you offer?",
+    answer: "We provide a comprehensive range of contractor services, including detailed project management, cost control, and onsite supervision. We handle everything from the initial planning stages and permitting to the final construction and handover, ensuring a seamless experience.",
   },
   {
-    question: "What is your payment structure for new projects?",
-    answer: "Our payment schedules are typically milestone-based. This means payments are linked to specific stages of construction progress (e.g., foundation completion, slab casting, brickwork, finishing). This ensures transparency and gives you peace of mind that you're paying for work completed.",
+    question: "What is your approach to quality craftsmanship?",
+    answer: "Quality craftsmanship is at the core of our work. We achieve this through meticulous attention to detail, using high-grade materials, and leveraging the skills of our experienced team. Every project is a testament to our commitment to excellence, ensuring it is durable and built to last.",
+  },
+  {
+    question: "How do you ensure safety and security on your construction sites?",
+    answer: "Safety and security are our top priorities. We conduct regular risk assessments, enforce strict safety protocols, and mandate the use of personal protective equipment (PPE). We also implement security measures like controlled site access and surveillance to protect our people and assets.",
   },
 ];
 
